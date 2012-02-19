@@ -21,7 +21,7 @@ Static functions or those whose names start with "\_" are ignored.
 ---
 
 I made this tool because while there exist tools like this already, I couldn't
-find one that merely updated the headers while preserving existing structure
+find one that merely updates the headers while preserving existing structure
 such as preprocessor directives, struct definitions, etc.
 
 To be fair though, as I'm a DIY kind of person, I didn't look very hard. :)
