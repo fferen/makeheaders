@@ -1,4 +1,4 @@
-#### Python script to auto-generate and then update header files from C source files.
+#### Python script to generate and then update header files from C source files.
 
 For each function in the provided file(s), creates a corresponding declaration
 in the header file with the same name, or, if the function name already exists
@@ -8,11 +8,11 @@ anything else in the header.
 Functions must have a docstring before the definition to be discovered (that's
 right, it enforces good coding style with an iron fist):
 
-        /* documentation */
-        TypeName func(arg, arg, ...) {
-            foo;
-            bar;
-        }
+    /* documentation */
+    TypeName func(arg, arg, ...) {
+        foo;
+        bar;
+    }
 
 Brace style and whitespace don't matter.
 
